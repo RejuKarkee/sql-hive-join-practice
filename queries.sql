@@ -1,4 +1,4 @@
---1. a list with the salesman’s name, customer name, and their cities for the salesmen and customers who belong to the same city.
+-- 1. List with the salesman’s name, customer name, and their cities for the salesmen and customers who belong to the same city.
 SELECT s.name, s.city, c.cust_name, c.city
 FROM salesman s
 JOIN customers c ON s.salesman_id = c.salesman_id
